@@ -6,15 +6,16 @@ import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import {
   Ecommerce,
   Orders,
-  Calender,
+  Calendar,
   Employees,
   Stacked,
   Pyramid,
   Customers,
-  kanban,
+  Kanban,
   Area,
   Bar,
   Pie,
+  Line,
   Financial,
   ColorPicker,
   ColorMapping,
@@ -23,7 +24,7 @@ import {
 import "./App.css";
 
 const App = () => {
-  const activeMenu = false;
+  const activeMenu = true;
 
   return (
     <div>
@@ -61,8 +62,8 @@ const App = () => {
           <div>
             <Routes>
               {/*Dashboard */}
-              <Route path="/" element={<ECommerce />} />
-              <Route path="/ecommerce" element="ECommerce" />
+              <Route path="/" element={<Ecommerce />} />
+              <Route path="/ecommerce" element={<Ecommerce />} />
 
               {/* Pages */}
               <Route path="/orders" element={<Orders />} />
