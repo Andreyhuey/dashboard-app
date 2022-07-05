@@ -1,0 +1,1 @@
+Admin Dashboard built with syncfusion allowing tables, sorting and pagination 
