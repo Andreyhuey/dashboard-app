@@ -36,6 +36,8 @@ const Navbar = () => {
     screenSize,
     setScreenSize,
     currentColor,
+    cart,
+    setCart,
   } = useStateContext();
 
   useEffect(() => {
