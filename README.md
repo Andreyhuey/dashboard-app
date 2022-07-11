@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a761aef-2e62-4b36-8a90-cf866be780bb/deploy-status)](https://app.netlify.com/sites/culturex-dashboard/deploys)
 
+Admin Dashboard built with syncfusion allowing tables with sorting and pagination, Charts and other cool functions
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
